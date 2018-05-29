@@ -1,0 +1,1 @@
+document.write ("this text was written from JS");

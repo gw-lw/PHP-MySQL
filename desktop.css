@@ -1,0 +1,279 @@
+html, body, header, footer, aside, div, p, h1, h2, h3, li, ul
+{
+   margin: 0;
+   padding: 0;
+   font-family : Times New Roman, Verdana, Geneva, sans-serif;
+   font-size: 1em;
+}
+
+h1 { font-size: 1.5em; margin: 0.25em;}
+h2 { font-size: 1.25em; margin: 0.25em;}
+h3 { font-size: 1em; margin: 0.25em;}
+p { margin: 0.25em 0; }
+
+h1#pagetitle{height:1.5em; margin-left:1em;}
+
+li { list-style-type: none;
+    margin: 0.25em 0; }
+
+header {
+   color: white;
+   background-color: rgba(50, 58, 70, 0.87);
+   height: 3em;
+   padding: 0.5em;
+}
+
+main {
+
+   margin-left: auto;
+   margin-right: auto;
+    margin-bottom: 5em;
+    overflow:auto;
+    padding-bottom: 0.5em;
+}
+
+nav#top {
+  color: white;
+    //width:100%;
+   //margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  //padding: 0.5em;
+
+
+}
+nav#top ul {
+    background-color: #5e2d91;
+    height: 2em;
+}
+nav#top ul li {
+
+    list-style: none;
+    display: inline;
+    margin: 1em;
+    position:relative;
+    top: 0.5em;
+
+}
+nav#top {
+    padding: 0.25em;
+}
+nav#top a {
+    padding: 0.25em;
+}
+
+nav#left{
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    background-color: lightgrey;
+    padding: 0.5em;
+    width: 10em;
+    float: left;
+    height: auto;
+}
+nav#left ul li{margin-left:1em;}
+nav#left ul li a{color:black}
+
+h3.left{
+    color:black;}
+
+div#main {
+    width: 70%;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+
+}
+div.p{margin-left:32%;}
+div#container{
+    margin-top:1.75em;
+    margin-bottom: 3.5em;
+}
+
+figure img {
+  max-width: 30%;
+    float:left;
+}
+
+footer {
+  color: white;
+  background-color: rgba(50, 58, 70, 0.87);
+  height: 3em;
+  padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    clear: left;
+
+}
+
+.box { 
+   border: 1pt solid black;
+   margin: 3px 3px 10px 3px;
+   padding: 5px;
+}
+nav select {
+    display: none;
+}
+
+
+a:link {
+    font-weight: bold;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a {
+    //color: #1E7EC8;
+    text-decoration: none; // changed from text-decoration:underline
+}
+a:hover {
+    //text-decoration: underline;
+    background-color: #0098aa;
+}
+aside {
+    color: black;
+    background-color: lightgrey;
+    padding: 0.5em;
+    width: 10em;
+    position:fixed;
+    top:6em;
+    right:0.5em;
+    float: right;
+
+}
+form {
+    margin-top: 0.5em;
+    margin-left:2em;
+    margin-right: 12em;
+    color: black;
+    //background-color: #d2d2d3;
+    padding: 0.5em;
+    width:80%;
+
+}
+
+form fieldset p{
+    //border: solid 0.5pt black;
+    margin:5px 5px;
+    padding:5px 5px;
+    width:90%;
+   background-color: #F1F1F1;
+
+
+}
+form fieldset p:nth-child(odd){
+//border: solid 0.5pt black;
+    margin:5px 5px;
+    padding:5px 5px;
+    width:90%;
+    background-color: white;
+
+}
+
+
+button{
+     background-color: #5e2d91;
+     height: 2.5em;
+     width: 10em;
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+     margin: 2em;
+
+ }
+button.mini{
+    background-color: #5e2d91;
+    height: 1.5em;
+    width: 3em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 2em;
+
+}
+button:hover {
+    //text-decoration: underline;
+    background-color:  #0098aa;
+}
+----------------------
+table {
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 1em;
+
+}
+table#list{margin-top:2em; margin-left:2em;}
+tbody {
+    background-color: #F1F1F1;
+}
+tbody tr:hover{
+    background-color: #9e9e9e;
+    color: black;
+}
+td, th {
+    padding: 0.5em;
+}
+thead, tfoot {
+    background-color: #CACACA;
+}
+caption {
+    font-size: 1.2em; font-weight: bold; background-color: #DCA806; padding: 0.5em;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+tbody tr:nth-child(odd):hover {
+    background-color: #9e9e9e;
+    color: black;
+}
+.detail{margin-top: 2em;}
+figure.detail{
+    display: block;
+}
+figure.detail img{
+    width: 25%;
+    margin-top:3em;
+    padding: 0.5em;
+
+}
+table.detail{
+    margin-top:5em;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+div.return p{
+    float: initial ;
+    text-align:center;
+}
+
+div.return p a{
+    position:relative;
+    top: 2em;
+    left: auto;
+    right:auto;
+    color: black;
+    margin: 1.5em;
+    padding: 0.25em;
+    background-color: darkgrey;
+}
+.movingDiv{
+    border: solid 1px black;
+    position:relative;
+    margin:30px 5px;
+    padding:20px 5px;
+    width:30%;
+    display:inline;
+    line-height:60px;
+}
+table#list tr td a.btn {
+    background-color:#5e2d91;
+}
+table#list tr td a.btn:hover {
+    background-color:#0098aa;
+}

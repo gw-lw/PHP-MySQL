@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width" />
+<head lang="en">
+   <meta charset="utf-8">
+
+   <title>Homepage</title>
+   
+   <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
+   <link rel="stylesheet" href="desktop.css" media="screen and (min-width:481px)" />
+</head>
+
+<body>
+
+<main>
+   <header>
+      <h1 id="pagetitle">Stock Transaction System</h1>
+       <div>
+           <nav id="top">
+               <ul>
+                   <li><a href="inputform.php">New Form</a></li>
+                   <li><a href="historylist.php">View All</a></li>
+                   <li><a href="editlist.php">Edit Forms</a></li>
+                   <li><a href="#">Online Banking</a></li>
+                   <li><a href="#">Accounts</a></li>
+                   <li><a href="#">About Us</a></li>
+               </ul>
+           </nav>
+       </div>
+
+   </header>
+
+   <div id="container">
+
+
+       <nav>
+          <select>
+              <option>New Form</option>
+              <option>View All</option>
+              <option>Edit Forms</option>
+              <option>Online Banking</option>
+              <option>Accounts</option>
+              <option>About Us</option>
+          </select>
+       </nav>
+       <nav id="left">
+           <h3 class="left">Online Trading</h3>
+           <ul>
+               <li><a href="#">Trading Website</a></li>
+               <li><a href="#">Streaming Quotes</a></li>
+               <li><a href="#">Starter</a></li>
+               <li><a href="#">Elite</a></li>
+               <li><a href="#">Pro</a></li>
+               <li><a href="#">Mobile Trading</a></li>
+               <li><a href="#">Fund Your Account</a></li>
+               <li><a href="#">Compare Platforms</a></li>
+
+           </ul>
+           <h3 class="left">Products&Accounts</h3>
+           <ul>
+               <li><a href="#">Stocks</a></li>
+               <li><a href="#">Options Trading</a></li>
+               <li><a href="#">Margin Trading</a></li>
+               <li><a href="#">Interest Rates</a></li>
+               <li><a href="#">Mutual Funds</a></li>
+               <li><a href="#">Bonds</a></li>
+               <li><a href="#">Treasuries</a></li>
+               <li><a href="#">Investing</a></li>
+           </ul>
+       </nav>
+       <aside>
+           <div class="box">
+               <h3>Cart</h3>
+               <p>You have no stocks in your cart</p>
+           </div>
+           <div class="box">
+               <h3>Messages</h3>
+               <p>You have three message in your inbox</p>
+           </div>
+       </aside>
+
+      <div id="main">
+
+            <h2>Select a Service</h2>
+            <figure>
+                <a href="inputform.php"><img src="images/Stocks.png" alt="Fill a New Form" title="Fill a New Form"/></a>
+                <figcaption>Input Validate and Store</figcaption>
+            </figure>
+          <div class="p">
+              <p>
+                  The web application should allow the user to enter data in a form and then validate the user input using PHP.The web application should store the data entered by the user in the form and validated using PHP in the MySQL database.
+              </p>
+
+          <button onclick="window.location.href='inputform.php'">Fill a New Form</button>
+          </div>
+
+          <figure>
+              <a href="historylist.php"><img src="images/History.png" alt="View all forms" title="View all forms"/></a>
+              <figcaption>Retrieve Items</figcaption>
+          </figure>
+          <div class="p">
+              <p>
+                  The web application should allow the user to retrieve all items currently stored in the database. Specifically, the user should be able to request a list of all items stored in the database in a table format.The data on the table is dynamic. In other words, the content of the table changes according to user actions.
+              </p>
+          <button onclick="window.location.href='historylist.php'">View All Forms</button>
+          </div>
+
+          <figure>
+              <a href="editlist.php"><img src="images/Update.png" alt="Update a form" title="Update a form"/></a>
+              <figcaption>Update or Delete</figcaption>
+          </figure>
+          <div class="p">
+              <p>
+                  The web application should allow the user to update an item currently stored in the database. Specifically, the user should be able to choose an item to update from a list of all items currently in the database.
+              </p>
+              <button onclick="window.location.href='editlist.php'">Update a form</button>
+          </div>
+
+
+
+
+
+      </div>
+
+
+
+   </div>
+</main>
+<footer>
+    <p><a href="homepage.html">Home</a> | <a href="#">Site Map</a> | <a href="contact.html">Contact</a></p>
+    <p><em>Copyright &copy; 2017 Stock Transaction System</em></p>
+
+</footer>
+</body>
+</html>

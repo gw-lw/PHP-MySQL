@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head ang="en">
+   <meta charset="utf-8">
+   <title>Contact Us</title>
+   <link rel="stylesheet" type="text/css" href="desktop.css" />
+   <script type="text/javascript" language="javascript" src="contact.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="pagetitle">Stock Transaction System</h1>
+    <div>
+      <nav id="top">
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="#">New Record</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Online Trading</a></li>
+          <li><a href="#">Online Banking</a></li>
+          <li><a href="#">Accounts</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <div id="container">
+
+
+    <nav>
+      <select>
+        <option href="homepage.html">Home</option>
+        <option>New Record</option>
+        <option>History</option>
+        <option>Online Trading</option>
+        <option>Online Banking</option>
+        <option>Accounts</option>
+        <option>About Us</option>
+      </select>
+    </nav>
+    <aside>
+      <div class="box">
+        <h3>Cart</h3>
+        <p>You have no stocks in your cart</p>
+      </div>
+      <div class="box">
+        <h3>Messages</h3>
+        <p>You have three message in your inbox</p>
+      </div>
+    </aside>
+
+
+
+
+  </div>
+<form name='mainForm' id='mainForm' method='get' action='http://www.randyconnolly.com/tests/process.php'>
+  <fieldset>
+    <legend>Required Information:</legend>
+    <p>
+      <label for="name">Name</label>
+      <input name="name" id="name" placeholder="First Last" type="text" size="30" pattern="[a-zA-Z]*" class="required">
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input name="email" id="email" placeholder="aaa@bbb.com" type="text" size="30" class="required">
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Optional Information:</legend>
+    <p>
+      <label>Message: </label><br/>
+      <textarea placeholder="Leave your message here." rows="5" cols="45" class=required"></textarea>
+    </p>
+  </fieldset>
+  <input type="submit">
+</form>
+    <div class="return">
+        <p><a href="homepage.html">Home</a>
+
+        </p>
+
+
+    </div>
+<footer>
+  <p><a href="homepage.html">Home</a> | <a href="#">Site Map</a> | <a href="contact.html">Contact</a></p>
+  <p><em>Copyright &copy; 2017 Stock Transaction System</em></p>
+
+</footer>
+</main>
+</body>
+
+</html>

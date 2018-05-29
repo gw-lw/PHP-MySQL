@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Input</title>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:480px)" />
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:481px)" />
+    <script type="text/javascript" language="javascript" src="inputform.js"></script>
+   <style>
+
+   </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1 id="pagetitle">Stock Transaction System</h1>
+        <div>
+            <nav id="top">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="#">New Record</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Online Trading</a></li>
+                    <li><a href="#">Online Banking</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="container">
+
+
+        <nav>
+            <select>
+                <option href="homepage.html">Home</option>
+                <option>New Record</option>
+                <option>History</option>
+                <option>Online Trading</option>
+                <option>Online Banking</option>
+                <option>Accounts</option>
+                <option>About Us</option>
+            </select>
+        </nav>
+        <aside>
+            <div class="box">
+                <h3>Cart</h3>
+                <p>You have no stocks in your cart</p>
+            </div>
+            <div class="box">
+                <h3>Messages</h3>
+                <p>You have three message in your inbox</p>
+            </div>
+        </aside>
+
+
+
+
+    </div>
+    <form name='mainForm' id='mainForm' method='get' action='http://www.randyconnolly.com/tests/process.php '>
+
+        <fieldset>
+            <legend>Transaction Details</legend>
+            <p>
+                <label>Date of Transaction: </label><br/>
+                <input type="date" name="Date of Transaction" class="required"/>
+
+            </p>
+            <p>
+                <label>Stock Ticker Symbol: </label><br/>
+                <input placeholder="Ticker (Uppercase only)" type="text" name="Stock Ticker Symbol" pattern="[a-zA-Z]*" maxlength="5" class="required"/>
+            </p>
+            <p>
+                <label>Price per Share: </label><br/>
+                <input type="number" min="0.01" placeholder="Number Only"  name="Price per Share" step="0.01" class="required"/>
+            </p>
+            <p>
+                <label>Number of Shares: </label><br/>
+                <input type="number" min="1" placeholder="Integer Only" name="Number of Shares" step="1" class="required"/>
+            </p>
+            <p>
+                <label>Transaction Exchange: </label><br/>
+                <select size="4" name="Transaction Exchange"  class="required">
+                    <option value="NYSE">New York Stock Exchange</option>
+                    <option value="Nasdaq">Nasdaq Stock Market</option>
+                    <option value="ECNs">Electronic Communication Networks</option>
+                    <option value="OTC">Over-the-Counter</option>
+                </select>
+            </p>
+            <p>
+                <label>Transaction Currency: </label><br/>
+                <select name="Transaction Currency" class="required">
+                    <option value="USD">U.S. Dollar</option>
+                    <option value="EUR">European Euro</option>
+                    <option value="JPY">Japanese Yen</option>
+                    <option value="GBP">British Pound</option>
+                    <option value="CHF">Swiss Franc</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="AUD">Australian Dollar </option>
+                    <option value="CNY">Chinese Yuan</option>
+                </select>
+
+            </p>
+            <p>
+                <label>(Optional) Comments: </label><br/>
+                <textarea placeholder="(Optional) Enter a comment." rows="5" cols="45"></textarea>
+            </p>
+
+            <input type="submit"/> <input type="reset"/>
+        </fieldset>
+    </form>
+    <div class="return">
+        <p><a href="homepage.html">Home</a>
+
+        </p>
+
+
+    </div>
+    <footer>
+        <p><a href="homepage.html">Home</a> | <a href="#">Site Map</a> | <a href="contact.html">Contact</a></p>
+        <p><em>Copyright &copy; 2017 Stock Transaction System</em></p>
+
+    </footer>
+</main>
+
+</body>
+</html>
